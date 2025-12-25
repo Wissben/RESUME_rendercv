@@ -1,0 +1,221 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Wissam BENHADDAD
+  headline: Senior Data Science Consultant | Generative AI Specialist
+  location: Paris, France
+  email: wissam.benhaddad.pro@gmail.com
+  phone: "+33617934570"
+  photo: "images/profile_pic.png"
+  social_networks:
+    - network: LinkedIn
+      username: wissam-benhaddad-a7a090137
+    - network: GitHub
+      username: Wissben
+
+  sections:
+    Summary:
+      - "Forward-thinking **Senior Data Scientist** and **Machine Learning Engineer** adept at using cutting-edge technologies to drive impactful solutions. With **5 years of experience**, I led the development of a **Document Analysis solution** at ByLaw, focusing on harnessing **Large Language Models (LLMs)** to extract valuable insights from complex data. By **fine-tuning** LLM algorithms and integrating them with other technologies, we improved document processing efficiency and accuracy. Beyond my project work, I actively contributed to **R&D** efforts, exploring new applications of **Deep Learning** and making valuable enhancements to internal solutions. Driven by a passion for innovation, I am eager to further leverage my expertise in **GenAI** to drive impactful initiatives and contribute to the evolution of cutting-edge solutions."
+
+    experience:
+      - company: Ekimetrics (Client Assignment- BPCE-Vie)
+        position: Data Science Consultant
+        start_date: 2025-09
+        end_date: present
+        location: Paris, France
+        highlights:
+          - Embedded within the internal Data Science team to shape strategic AI initiatives, translating business challenges into actionable use cases and establishing a comprehensive data strategy roadmap
+          - Designed and championed a fully AI-driven transformation roadmap for the Financial Department, encompassing data governance enhancements, intelligent chatbot deployment, and automated document analysis pipelines to streamline operational workflows
+          - Partnered with cross-functional stakeholders to prioritize high-impact AI opportunities, balancing technical feasibility with business value to drive measurable efficiency gains
+          - "**Tech Stack:** Python, Azure, GenAI, Document Processing, Conversational AI"
+
+      - company: Ekimetrics (Client Assignment)
+        position: KPI Extraction from Unstructured Documents (Confidential Client)
+        start_date: 2025-03
+        end_date: 2025-09
+        location: Paris, France
+        highlights:
+          - Delivered a scoped, production-ready approach for automated KPI extraction, aligning stakeholders on definitions, acceptance criteria, and measurable quality targets
+          - Designed a robust document understanding pipeline (RAG, semantic chunking, disambiguation) focused on traceability and consistent outputs
+          - Built stakeholder trust by translating model behavior into clear decision-ready reporting (failure modes, trade-offs, rollout recommendations)
+          - "**Tech Stack:** Azure OpenAI, Databricks, Document AI, Python"
+
+      - company: Ekimetrics (Client Assignment - CNP Assurances)
+        position: GenAI Adoption & Governance — Microsoft Copilot
+        start_date: 2024-11
+        end_date: 2025-03
+        location: Paris, France
+        highlights:
+          - Led discovery workshops to translate business pain points into a ranked GenAI backlog (impact vs. feasibility), enabling fast, outcome-driven delivery
+          - Delivered and documented 40+ high-value Copilot use cases (summarization, KPI extraction, dashboarding, meeting recaps) with clear guardrails and adoption guidance
+          - Created a repeatable delivery framework (prompt patterns, validation checklist, governance recommendations) used as reference by both client and internal teams
+          - Drove enablement by training stakeholders, capturing lessons learned, and improving adoption by making outputs reliable and easy to operationalize
+          - "**Tech Stack:** MS365 Copilot, Copilot Studio, Copilot Agents"
+      - company: Ekimetrics (Innovation Team)
+        position: Senior Data Scientist — GenAI / Applied Research (LLMs)
+        start_date: 2024-07
+        end_date: 2025-12
+        location: Paris, France
+        highlights:
+          - Owned the transition from R&D to delivery for LLM fine-tuning, turning ambiguous use-cases into a prioritized roadmap with clear success metrics and shippable milestones
+          - Built an end-to-end fine-tuning playbook (data curation, training recipes, evaluation harness, deployment guidelines) to make results reproducible and production-oriented
+          - Led technical choices (SFT/PEFT, architecture trade-offs, evaluation strategy) and drove reviews with senior stakeholders to de-risk scope, cost, and timeline
+          - Became the go-to advisor for LLM fine-tuning across teams, unblocking projects by pairing deep technical guidance with pragmatic delivery plans
+          - "**Tech Stack:** Python, SQL, Databricks, PyTorch, Hugging Face, Docker, Git"
+
+      - company: Ekimetrics (Client Assignment - Groupe Crystal)
+        position: Customer Segmentation & Scoring
+        start_date: 2024-08
+        end_date: 2025-01
+        location: Paris, France
+        highlights:
+          - Shipped segmentation and scoring recommendations grounded in rigorous EDA and data quality validation to ensure trustworthy conclusions
+          - Owned delivery from roadmap to execution (planning, sprint rituals, stakeholder reviews), keeping scope tightly aligned to business decisions
+          - Communicated actionable outcomes (what to do next, expected trade-offs, risks) to both technical and non-technical stakeholders
+          - "**Tech Stack:** Python, SQL, Databricks, Scikit-learn, Azure, Jira"
+
+      - company: ByLaw
+        position: Senior Data Scientist
+        start_date: 2023-06
+        end_date: 2024-07
+        location: Paris, France
+        highlights:
+          - Built and deployed a production document extraction solution using multi-modal transformers to automate payslip understanding for compensation workflows
+          - Productionized LLM-based extraction across heterogeneous documents (contracts, legal and financial reports) with focus on reliability and measurable quality
+          - Strengthened the MLOps pipeline through code reviews, bug fixes, and deployment hardening to ensure smooth releases and stable inference
+          - Deployed and operated models on AWS SageMaker for real-time inference, improving end-to-end processing efficiency and maintainability
+          - Contributed to team scaling by interviewing and hiring data scientists, and mentoring through reviews and technical guidance
+          - "**Tech Stack:** Python, SQL, AWS SageMaker, PyTorch, Hugging Face, Docker, Git"
+
+      - company: Qwarry
+        position: Lead Data Scientist
+        start_date: 2023-01
+        end_date: 2023-06
+        location: Paris, France
+        highlights:
+          - Explored retail-media-based advertising offers, leading to innovative solutions to enhance company products
+          - Developed advanced ML models and integrated them into company products and services
+          - Mentored junior data scientists, providing technical guidance and fostering their professional growth
+          - Presented ML research findings to stakeholders, driving informed business decisions
+          - "**Tech Stack:** AWS SageMaker, Tableau, Python, Pandas, Jira, Trello, Asana"
+
+      - company: Qwarry
+        position: Data Scientist
+        start_date: 2020-09
+        end_date: 2022-12
+        location: Paris, France
+        highlights:
+          - Implemented and enhanced text classification models within AWS SageMaker environment, improving data processing efficiency
+          - Established an ML CI/CD pipeline using AWS SageMaker pipelines and GitHub actions, streamlining the deployment process
+          - Designed and implemented socio-demographic targeting solutions using Machine Learning models, optimizing audience segmentation strategies
+          - Configured and deployed textual data labeling solutions using LabelStudio, improving data annotation efficiency
+          - Conducted large-scale web content analysis using PySpark in a cloud environment, extracting actionable insights
+          - Generated informative dashboards and reports on socio-demographic data, enabling data-driven strategies
+          - "**Tech Stack:** AWS SageMaker, GCP Big Query, PySpark, Python, Pandas, Git, Docker, Jira, Trello"
+
+      - company: Qwarry
+        position: Intern Data Scientist
+        start_date: 2020-03
+        end_date: 2020-08
+        location: Paris, France
+        highlights:
+          - Developed a machine learning toolbox in Python, streamlining model development processes
+          - Curated and validated datasets for text classification tasks, ensuring data quality and relevance
+          - Built and deployed ML models for text classification behind a Django API, enhancing text analysis capabilities
+          - "**Tech Stack:** Keras, TensorFlow, Python, Pandas, Django, SQL"
+
+    education:
+      - institution: University Paris Descartes
+        area: Machine Learning for Data Science
+        degree: MS
+        start_date: 2019-09
+        end_date: 2020-06
+        location: Paris, France
+
+      - institution: University of Science and Technology
+        area: Intelligent Computer Systems
+        degree: MS
+        start_date: 2017-09
+        end_date: 2019-06
+        location: Algiers, Algeria
+
+      - institution: University of Science and Technology
+        area: Computer Science
+        degree: BS
+        start_date: 2014-09
+        end_date: 2017-06
+        location: Algiers, Algeria
+
+    projects:
+      - name: "[Speact](https://github.com/Wissben/speact-backend)"
+        start_date: 2019-01
+        end_date: 2019-12
+        summary: Speech recognition project for developing a computer manipulation assistant using intent classification and dialog management
+        highlights:
+          - Developed backend and frontend components for voice-controlled computer assistant
+          - Implemented NLU pipeline with intent classification and dialog management
+          - Applied reinforcement learning for smart personal assistant capabilities
+          - "**Tech Stack:** Python, Keras, Pandas, NLTK, Reinforcement Learning"
+
+      - name: "[El-Muaiyen](https://github.com/Wissben/el-muaiyen-backend)"
+        start_date: 2018-01
+        end_date: 2018-12
+        summary: Web application for managing a historical dictionary of the Arabic language
+        highlights:
+          - Built full-stack web application with modern frontend and RESTful backend
+          - Implemented search functionality using ElasticSearch for efficient text retrieval
+          - Deployed on Google Cloud Platform using Docker and Kubernetes
+          - "**Tech Stack:** Vue.js, Vuetify, Django, Django Rest Framework, Docker, Kubernetes, GCP, NLTK, ElasticSearch"
+
+    skills:
+      - label: Programming Languages
+        details: Python, SQL, R, C/C++, Java, JavaScript
+      - label: GenAI & LLMs
+        details: LLM Fine-tuning (PEFT, LoRA, QLoRA), RAG Pipelines, Prompt Engineering, RLHF, LangChain, LlamaIndex, Embedding Models, Model Evaluation
+      - label: ML/DL Frameworks
+        details: PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, Keras, NumPy, Pandas, NLTK, spaCy
+      - label: MLOps & Production
+        details: Docker, Kubernetes, MLflow, CI/CD Pipelines, Model Monitoring, GitHub Actions, Prefect, Git
+      - label: Cloud & Infrastructure
+        details: AWS (SageMaker, S3, EC2, Lambda), Azure (OpenAI, ML), GCP (Big Query), Databricks, Terraform
+      - label: Vector Databases & Search
+        details: Pinecone, ChromaDB, FAISS, ElasticSearch, Semantic Search
+      - label: Data Engineering
+        details: PySpark, Big Query, Databricks, SQL, Data Pipelines, ETL
+      - label: AI Deployment & APIs
+        details: FastAPI, Flask, Django, REST APIs, Model Serving, Real-time Inference
+      - label: Specialized AI
+        details: Document AI, Multimodal Transformers, NLU, Text Classification, Computer Vision, Agentic AI
+
+    languages:
+      - label: French
+        details: Native
+      - label: English
+        details: Professional working proficiency
+      - label: Arabic
+        details: Native
+
+    interests:
+      - bullet: Hiking and outdoor activities
+      - bullet: Football
+      - bullet: Reading and Manga
+      - bullet: Music
+
+design:
+  theme: classic
+  page:
+    size: a4
+  colors:
+    name: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+
+locale:
+  language: english
+
+settings:
+  current_date: "2025-12-25"
+  render_command:
+    pdf_path: rendercv_output/wissam_benhaddad_cv.pdf
+    typst_path: rendercv_output/wissam_benhaddad_cv.typ
+    markdown_path: rendercv_output/wissam_benhaddad_cv.md
+    html_path: rendercv_output/wissam_benhaddad_cv.html
