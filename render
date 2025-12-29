@@ -4,9 +4,9 @@ set -e
 # create output if does not exist
 
 if [ "$1" == "en" ]; then
-	rendercv render -nomd -nohtml -nopng -pdf="rendercv_output/wissam_benhaddad_cv_en.pdf" EN-Resume.yaml
+	uv run rendercv render -nomd -nohtml -nopng -pdf="rendercv_output/wissam_benhaddad_cv_en.pdf" EN-Resume.yaml
 else
-	rendercv render -nomd -nohtml -nopng -pdf="rendercv_output/wissam_benhaddad_cv_fr.pdf" FR-Resume.yaml
+	uv run rendercv render -nomd -nohtml -nopng -pdf="rendercv_output/wissam_benhaddad_cv_fr.pdf" FR-Resume.yaml
 fi
 
 # Keep only the PDF
