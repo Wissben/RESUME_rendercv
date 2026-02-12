@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Wissam BENHADDAD
-  headline: Senior Data Science Consultant | Generative AI Specialist
+  headline: Senior Data Science & AI Engineer | Generative AI Specialist
   location: Paris, France
   email: wissam.benhaddad.pro@gmail.com
   phone: "+33617934570"
@@ -14,11 +14,11 @@ cv:
 
   sections:
     Summary:
-      - "Forward-thinking **Senior Data Scientist** and **Machine Learning Engineer** adept at using cutting-edge technologies to drive impactful solutions. With **5 years of experience**, I led the development of a **Document Analysis solution** at ByLaw, focusing on harnessing **Large Language Models (LLMs)** to extract valuable insights from complex data. By **fine-tuning** LLM algorithms and integrating them with other technologies, we improved document processing efficiency and accuracy. Beyond my project work, I actively contributed to **R&D** efforts, exploring new applications of **Deep Learning** and making valuable enhancements to internal solutions. Driven by a passion for innovation, I am eager to further leverage my expertise in **GenAI** to drive impactful initiatives and contribute to the evolution of cutting-edge solutions."
+      - "Forward-thinking **Senior Data Scientist** and **AI Engineer** adept at using cutting-edge technologies to drive impactful solutions. With **5 years of experience**, I led the development of a **Document Analysis solution** at ByLaw, focusing on harnessing **Large Language Models (LLMs)** to extract valuable insights from complex data. By **fine-tuning** LLM algorithms and integrating them with other technologies, we improved document processing efficiency and accuracy. Beyond my project work, I actively contributed to **R&D** efforts, exploring new applications of **Deep Learning** and making valuable enhancements to internal solutions. Driven by a passion for innovation, I am eager to further leverage my expertise in **GenAI** to drive impactful initiatives and contribute to the evolution of cutting-edge solutions."
 
     experience:
       - company: Ekimetrics (Client Assignment- BPCE-Vie)
-        position: Data Science Consultant
+        position: Senior Data Science & AI Engineer
         start_date: 2025-09
         end_date: present
         location: Paris, France
@@ -26,7 +26,7 @@ cv:
           - Embedded within the internal Data Science team to shape strategic AI initiatives, translating business challenges into actionable use cases and establishing a comprehensive data strategy roadmap
           - Designed and championed a fully AI-driven transformation roadmap for the Financial Department, encompassing data governance enhancements, intelligent chatbot deployment, and automated document analysis pipelines to streamline operational workflows
           - Partnered with cross-functional stakeholders to prioritize high-impact AI opportunities, balancing technical feasibility with business value to drive measurable efficiency gains
-          - "**Tech Stack:** Python, Azure, GenAI, Document Processing, Conversational AI"
+          - "**Tech Stack:** Python, GCP, Agentic GenAI, Document Processing, Conversational AI, Talk to Data, LangGraph"
 
       - company: Ekimetrics (Client Assignment)
         position: KPI Extraction from Unstructured Documents (Confidential Client)
@@ -37,7 +37,7 @@ cv:
           - Delivered a scoped, production-ready approach for automated KPI extraction, aligning stakeholders on definitions, acceptance criteria, and measurable quality targets
           - Designed a robust document understanding pipeline (RAG, semantic chunking, disambiguation) focused on traceability and consistent outputs
           - Built stakeholder trust by translating model behavior into clear decision-ready reporting (failure modes, trade-offs, rollout recommendations)
-          - "**Tech Stack:** Azure OpenAI, Databricks, Document AI, Python"
+          - "**Tech Stack:** Azure OpenAI, Databricks, Document AI, Python, Agentic GenAI"
 
       - company: Ekimetrics (Client Assignment - CNP Assurances)
         position: GenAI Adoption & Governance — Microsoft Copilot

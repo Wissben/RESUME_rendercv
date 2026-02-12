@@ -1,12 +1,42 @@
 #!/bin/bash
 set -e
 
-# create output if does not exist
+if [[ "$1" == "help" || "$1" == "--help" || "$1" == "-h" ]]; then
+	echo "Usage: ./render [en] [fr] [all]"
+	echo ""
+	echo "Arguments:"
+	echo "  en      Render the English version"
+	echo "  fr      Render the French version"
+	echo "  all     Render both versions"
+	echo "  help    Show this help message"
+	echo ""
+	echo "If no arguments are provided, it renders the French version."
+	exit 0
+fi
 
-if [ "$1" == "en" ]; then
+render_en() {
+	echo "Rendering English version..."
 	uv run rendercv render -nomd -nohtml -nopng -pdf="rendercv_output/wissam_benhaddad_cv_en.pdf" EN-Resume.yaml
-else
+}
+
+render_fr() {
+	echo "Rendering French version..."
 	uv run rendercv render -nomd -nohtml -nopng -pdf="rendercv_output/wissam_benhaddad_cv_fr.pdf" FR-Resume.yaml
+}
+
+if [ $# -eq 0 ]; then
+	render_fr
+else
+	for arg in "$@"; do
+		if [ "$arg" == "en" ]; then
+			render_en
+		elif [ "$arg" == "fr" ]; then
+			render_fr
+		elif [ "$arg" == "all" ]; then
+			render_en
+			render_fr
+		fi
+	done
 fi
 
 # Keep only the PDF

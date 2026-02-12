@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Wissam BENHADDAD
-  headline: Consultant Senior en Data Science | Spécialiste en IA Générative
+  headline: Senior Data Science & AI Engineer | Spécialiste en IA Générative
   location: Paris, France
   email: wissam.benhaddad.pro@gmail.com
   phone: "+33617934570"
@@ -14,7 +14,7 @@ cv:
 
   sections:
     Résumé:
-      - "**Data Scientist Senior** et **Ingénieur Machine Learning** tourné vers l'avenir, expert dans l'utilisation de technologies de pointe pour générer des solutions à fort impact. Avec **5 ans d'expérience**, j'ai dirigé le développement d'une solution d'**analyse documentaire** chez ByLaw, en me concentrant sur l'exploitation des **Large Language Models (LLMs)** pour extraire des insights précieux de données complexes. En **affinant** les algorithmes LLM et en les intégrant avec d'autres technologies, nous avons amélioré l'efficacité et la précision du traitement documentaire. Au-delà de mes projets principaux, j'ai activement contribué aux efforts de **R&D**, explorant de nouvelles applications du **Deep Learning** et apportant des améliorations précieuses aux solutions internes. Animé par une passion pour l'innovation, je suis désireux de continuer à exploiter mon expertise en **GenAI** pour conduire des initiatives à fort impact et contribuer à l'évolution de solutions de pointe."
+      - "**Data Scientist Senior** et **Ingénieur en Intelligence Artificielle** tourné vers l'avenir, expert dans l'utilisation de technologies de pointe pour générer des solutions à fort impact. Avec **5 ans d'expérience**, j'ai dirigé le développement d'une solution d'**analyse documentaire** chez ByLaw, en me concentrant sur l'exploitation des **Large Language Models (LLMs)** pour extraire des insights précieux de données complexes. En **affinant** les algorithmes LLM et en les intégrant avec d'autres technologies, nous avons amélioré l'efficacité et la précision du traitement documentaire. Au-delà de mes projets principaux, j'ai activement contribué aux efforts de **R&D**, explorant de nouvelles applications du **Deep Learning** et apportant des améliorations précieuses aux solutions internes. Animé par une passion pour l'innovation, je suis désireux de continuer à exploiter mon expertise en **GenAI** pour conduire des initiatives à fort impact et contribuer à l'évolution de solutions de pointe."
 
     Expérience Professionnelle:
       - company: Ekimetrics (Client - BPCE-Vie)
@@ -26,7 +26,7 @@ cv:
           - Intégré au sein de l'équipe Data Science interne pour façonner les initiatives stratégiques en IA, traduisant les défis métiers en cas d'usage actionnables et établissant une feuille de route complète de stratégie data
           - Conçu et défendu une feuille de route de transformation entièrement pilotée par l'IA pour le département Financier, englobant l'amélioration de la gouvernance des données, le déploiement d'un chatbot intelligent et des pipelines d'analyse documentaire automatisés pour rationaliser les workflows opérationnels
           - Collaboré avec les parties prenantes transverses pour prioriser les opportunités IA à fort impact, équilibrant faisabilité technique et valeur métier pour générer des gains d'efficacité mesurables
-          - "**Stack Technique:** Python, Azure, GenAI, Traitement Documentaire, IA Conversationnelle"
+          - "**Stack Technique:** Python, GCP, Agentic GenAI, Traitement Documentaire, IA Conversationnelle, Talk to Data, LangGraph"
 
       - company: Ekimetrics
         position: Data Scientist Senior — GenAI / Recherche Appliquée (LLMs)
@@ -43,7 +43,7 @@ cv:
       - company: Ekimetrics (Mission Client)
         position: Extraction de KPI depuis Documents Non-Structurés (Client Confidentiel)
         start_date: 2025-03
-        end_date: 2025-07
+        end_date: 2025-09
         location: Paris, France
         highlights:
           - Livré une approche délimitée et prête pour la production pour l'extraction automatisée de KPI, alignant les parties prenantes sur les définitions, critères d'acceptation et cibles de qualité mesurables
@@ -63,9 +63,21 @@ cv:
           - Piloté l'accompagnement en formant les parties prenantes, capturant les leçons apprises et améliorant l'adoption en rendant les outputs fiables et faciles à opérationnaliser
           - "**Stack Technique:** MS365 Copilot, Copilot Studio, Copilot Agents"
 
+      - company: Ekimetrics
+        position: Data Scientist Senior — GenAI / Recherche Appliquée (LLMs)
+        start_date: 2024-07
+        end_date: 2025-12
+        location: Paris, France
+        highlights:
+          - Piloté la transition de la R&D vers la livraison pour le fine-tuning de LLM, transformant des cas d'usage ambigus en feuille de route priorisée avec des métriques de succès claires et des jalons livrables
+          - Construit un guide méthodologique de bout en bout pour le fine-tuning (curation de données, recettes d'entraînement, harnais d'évaluation, directives de déploiement) pour rendre les résultats reproductibles et orientés production
+          - Dirigé les choix techniques (SFT/PEFT, compromis architecturaux, stratégie d'évaluation) et animé des revues avec les parties prenantes seniors pour dé-risquer la portée, les coûts et les délais
+          - Devenu le conseiller de référence pour le fine-tuning de LLM au sein des équipes, débloquant les projets en combinant conseils techniques approfondis et plans de livraison pragmatiques
+          - "**Stack Technique:** Python, SQL, Databricks, PyTorch, Hugging Face, Docker, Git"
+
       - company: Ekimetrics (Mission Client - Groupe Crystal)
         position: Segmentation Client & Scoring
-        start_date: 2024-05
+        start_date: 2024-08
         end_date: 2025-01
         location: Paris, France
         highlights:
