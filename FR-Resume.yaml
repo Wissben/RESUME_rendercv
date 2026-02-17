@@ -14,8 +14,7 @@ cv:
 
   sections:
     Résumé:
-      - "**Data Scientist Senior** et **Ingénieur en Intelligence Artificielle** tourné vers l'avenir, expert dans l'utilisation de technologies de pointe pour générer des solutions à fort impact. Avec **5 ans d'expérience**, j'ai dirigé le développement d'une solution d'**analyse documentaire** chez ByLaw, en me concentrant sur l'exploitation des **Large Language Models (LLMs)** pour extraire des insights précieux de données complexes. En **affinant** les algorithmes LLM et en les intégrant avec d'autres technologies, nous avons amélioré l'efficacité et la précision du traitement documentaire. Au-delà de mes projets principaux, j'ai activement contribué aux efforts de **R&D**, explorant de nouvelles applications du **Deep Learning** et apportant des améliorations précieuses aux solutions internes. Animé par une passion pour l'innovation, je suis désireux de continuer à exploiter mon expertise en **GenAI** pour conduire des initiatives à fort impact et contribuer à l'évolution de solutions de pointe."
-
+      - "Ingénieur Senior Data Science & IA avec plus de 6 ans d'expérience dans la conception et la mise en production de systèmes IA à haute valeur ajoutée. Spécialisé dans les Grands Modèles de Langage (LLM), l'IA Générative et les pipelines ML de bout en bout — du fine-tuning et des architectures RAG jusqu'à l'inférence en temps réel sur AWS et Azure. A piloté la conception et la livraison de solutions d'intelligence documentaire, de frameworks de fine-tuning LLM et de systèmes IA agentiques dans des secteurs variés tels que l'assurance, le juridique et les médias. Reconnu pour allier une expertise technique approfondie à une capacité à fédérer les parties prenantes, transformant des opportunités IA complexes en résultats business mesurables."
     Expérience Professionnelle:
       - company: Ekimetrics (Client - BPCE-Vie)
         position: Consultant Data Science
