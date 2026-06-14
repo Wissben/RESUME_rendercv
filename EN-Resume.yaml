@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Wissam BENHADDAD
-  headline: Senior Data Science & AI Engineer | Generative AI Specialist
+  headline: Technical Lead Data Science & AI Engineer | Generative AI Specialist
   location: Paris, France
   email: wissam.benhaddad.pro@gmail.com
   phone: "+33617934570"
@@ -14,13 +14,26 @@ cv:
 
   sections:
     Summary:
-      - "Senior Data Science & AI Engineer with 6+ years of experience building and shipping production-grade AI systems. Specialized in Large Language Models, Generative AI, and end-to-end ML pipelines — from fine-tuning and RAG architectures to real-time inference on AWS and Azure. Led the design and delivery of document intelligence solutions, LLM fine-tuning frameworks, and agentic AI systems across industries including insurance, legal, and media. Known for bridging deep technical ownership with cross-functional stakeholder alignment to turn ambiguous AI opportunities into measurable business outcomes."
+      - "Technical Lead Data Science & AI Engineer with 6+ years of experience building and shipping production-grade AI systems. Specialized in Large Language Models, Generative AI, and end-to-end ML pipelines — from fine-tuning and RAG architectures to real-time inference on AWS and Azure. Led the design and delivery of document intelligence solutions, LLM fine-tuning frameworks, and agentic AI systems across industries including insurance, legal, and media. Known for bridging deep technical ownership with cross-functional stakeholder alignment to turn ambiguous AI opportunities into measurable business outcomes."
 
     experience:
+        
+      - company: Ekimetrics (Client Assignment- BPCE-Vie)
+        position: Technical Lead Data Science & AI Engineer
+        start_date: 2026-04
+        end_date: present
+        location: Paris, France
+        highlights:
+          - Partner with the client's Technical Lead to architect and deliver enterprise-grade conversational AI and "Talk to Data" applications, leveraging LangGraph multi-agent workflows on GCP
+          - Mentor and upskill junior data science and AI engineers, establishing engineering best practices for clean code, LLM orchestration, and robust testing frameworks
+          - Spearhead the design and development of Ekimetrics' Document AI service offering, building modular and reusable multi-modal parsing pipelines to accelerate client deliveries
+          - Define technical roadmaps, lead system design reviews, and implement rigorous evaluation/monitoring harnesses to ensure system reliability and accuracy in production
+          - "**Tech Stack:** Python, GCP, Agentic GenAI, Document Processing, Conversational AI, Talk to Data, LangGraph"
+
       - company: Ekimetrics (Client Assignment- BPCE-Vie)
         position: Senior Data Science & AI Engineer
         start_date: 2025-09
-        end_date: present
+        end_date: 2026-04
         location: Paris, France
         highlights:
           - Embedded within the internal Data Science team to shape strategic AI initiatives, translating business challenges into actionable use cases and establishing a comprehensive data strategy roadmap

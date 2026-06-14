@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Wissam BENHADDAD
-  headline: Senior Data Science & AI Engineer | Spécialiste en IA Générative
+  headline: Technical Lead Data Science & AI Engineer | Spécialiste en IA Générative
   location: Paris, France
   email: wissam.benhaddad.pro@gmail.com
   phone: "+33617934570"
@@ -14,33 +14,33 @@ cv:
 
   sections:
     Résumé:
-      - "Ingénieur Senior Data Science & IA avec plus de 6 ans d'expérience dans la conception et la mise en production de systèmes IA à haute valeur ajoutée. Spécialisé dans les Grands Modèles de Langage (LLM), l'IA Générative et les pipelines ML de bout en bout — du fine-tuning et des architectures RAG jusqu'à l'inférence en temps réel sur AWS et Azure. A piloté la conception et la livraison de solutions d'intelligence documentaire, de frameworks de fine-tuning LLM et de systèmes IA agentiques dans des secteurs variés tels que l'assurance, le juridique et les médias. Reconnu pour allier une expertise technique approfondie à une capacité à fédérer les parties prenantes, transformant des opportunités IA complexes en résultats business mesurables."
+      - "Technical Lead Data Science & IA avec plus de 6 ans d'expérience dans la conception et la mise en production de systèmes IA à haute valeur ajoutée. Spécialisé dans les Grands Modèles de Langage (LLM), l'IA Générative et les pipelines ML de bout en bout — du fine-tuning et des architectures RAG jusqu'à l'inférence en temps réel sur AWS et Azure. A piloté la conception et la livraison de solutions d'intelligence documentaire, de frameworks de fine-tuning LLM et de systèmes IA agentiques dans des secteurs variés tels que l'assurance, le juridique et les médias. Reconnu pour allier une expertise technique approfondie à une capacité à fédérer les parties prenantes, transformant des opportunités IA complexes en résultats business mesurables."
     Expérience Professionnelle:
       - company: Ekimetrics (Client - BPCE-Vie)
-        position: Consultant Data Science
-        start_date: 2025-09
+        position: Technical Lead Data Science & AI Engineer
+        start_date: 2026-04
         end_date: present
+        location: Paris, France
+        highlights:
+          - Collaboré avec le Technical Lead du client pour concevoir et livrer des applications d'IA conversationnelle et de "Talk to Data" d'entreprise, en s'appuyant sur des workflows multi-agents LangGraph sur GCP
+          - Mentoré et fait monter en compétences des data scientists et ingénieurs IA juniors, en établissant des engineering best practices pour le clean code, l'LLM orchestration et des testing frameworks robustes
+          - Piloté la conception et le développement de l'offre de service Document AI d'Ekimetrics, en construisant des pipelines de multi-modal parsing modulaires et réutilisables pour accélérer les livraisons clients
+          - Défini les feuilles de route techniques, dirigé les system design reviews et implémenté des evaluation/monitoring harnesses rigoureux pour assurer la fiabilité et la précision du système en production
+          - "**Stack Technique:** Python, GCP, Agentic GenAI, Document Processing, Conversational AI, Talk to Data, LangGraph"
+
+      - company: Ekimetrics (Client - BPCE-Vie)
+        position: Senior Data Science & AI Engineer
+        start_date: 2025-09
+        end_date: 2026-04
         location: Paris, France
         highlights:
           - Intégré au sein de l'équipe Data Science interne pour façonner les initiatives stratégiques en IA, traduisant les défis métiers en cas d'usage actionnables et établissant une feuille de route complète de stratégie data
           - Conçu et défendu une feuille de route de transformation entièrement pilotée par l'IA pour le département Financier, englobant l'amélioration de la gouvernance des données, le déploiement d'un chatbot intelligent et des pipelines d'analyse documentaire automatisés pour rationaliser les workflows opérationnels
           - Collaboré avec les parties prenantes transverses pour prioriser les opportunités IA à fort impact, équilibrant faisabilité technique et valeur métier pour générer des gains d'efficacité mesurables
-          - "**Stack Technique:** Python, GCP, Agentic GenAI, Traitement Documentaire, IA Conversationnelle, Talk to Data, LangGraph"
-
-      - company: Ekimetrics
-        position: Data Scientist Senior — GenAI / Recherche Appliquée (LLMs)
-        start_date: 2024-07
-        end_date: 2025-09
-        location: Paris, France
-        highlights:
-          - Piloté la transition de la R&D vers la livraison pour le fine-tuning de LLM, transformant des cas d'usage ambigus en feuille de route priorisée avec des métriques de succès claires et des jalons livrables
-          - Construit un guide méthodologique de bout en bout pour le fine-tuning (curation de données, recettes d'entraînement, harnais d'évaluation, directives de déploiement) pour rendre les résultats reproductibles et orientés production
-          - Dirigé les choix techniques (SFT/PEFT, compromis architecturaux, stratégie d'évaluation) et animé des revues avec les parties prenantes seniors pour dé-risquer la portée, les coûts et les délais
-          - Devenu le conseiller de référence pour le fine-tuning de LLM au sein des équipes, débloquant les projets en combinant conseils techniques approfondis et plans de livraison pragmatiques
-          - "**Stack Technique:** Python, SQL, Databricks, PyTorch, Hugging Face, Docker, Git"
+          - "**Stack Technique:** Python, GCP, Agentic GenAI, Document Processing, Conversational AI, Talk to Data, LangGraph"
 
       - company: Ekimetrics (Mission Client)
-        position: Extraction de KPI depuis Documents Non-Structurés (Client Confidentiel)
+        position: KPI Extraction from Unstructured Documents (Confidential Client)
         start_date: 2025-03
         end_date: 2025-09
         location: Paris, France
@@ -48,10 +48,10 @@ cv:
           - Livré une approche délimitée et prête pour la production pour l'extraction automatisée de KPI, alignant les parties prenantes sur les définitions, critères d'acceptation et cibles de qualité mesurables
           - Conçu un pipeline robuste de compréhension documentaire (RAG, découpage sémantique, désambiguïsation) axé sur la traçabilité et des outputs cohérents
           - Construit la confiance des parties prenantes en traduisant le comportement des modèles en reporting décisionnel clair (modes de défaillance, compromis, recommandations de déploiement)
-          - "**Stack Technique:** Azure OpenAI, Databricks, Document AI, Python"
+          - "**Stack Technique:** Azure OpenAI, Databricks, Document AI, Python, Agentic GenAI"
 
       - company: Ekimetrics (Mission Client - CNP Assurances)
-        position: Adoption & Gouvernance GenAI — Microsoft Copilot
+        position: GenAI Adoption & Governance — Microsoft Copilot
         start_date: 2024-11
         end_date: 2025-03
         location: Paris, France
@@ -62,8 +62,8 @@ cv:
           - Piloté l'accompagnement en formant les parties prenantes, capturant les leçons apprises et améliorant l'adoption en rendant les outputs fiables et faciles à opérationnaliser
           - "**Stack Technique:** MS365 Copilot, Copilot Studio, Copilot Agents"
 
-      - company: Ekimetrics
-        position: Data Scientist Senior — GenAI / Recherche Appliquée (LLMs)
+      - company: Ekimetrics (Innovation Team)
+        position: Senior Data Scientist — GenAI / Applied Research (LLMs)
         start_date: 2024-07
         end_date: 2025-12
         location: Paris, France
@@ -75,7 +75,7 @@ cv:
           - "**Stack Technique:** Python, SQL, Databricks, PyTorch, Hugging Face, Docker, Git"
 
       - company: Ekimetrics (Mission Client - Groupe Crystal)
-        position: Segmentation Client & Scoring
+        position: Customer Segmentation & Scoring
         start_date: 2024-08
         end_date: 2025-01
         location: Paris, France
@@ -86,7 +86,7 @@ cv:
           - "**Stack Technique:** Python, SQL, Databricks, Scikit-learn, Azure, Jira"
 
       - company: ByLaw
-        position: Data Scientist Senior
+        position: Senior Data Scientist
         start_date: 2023-06
         end_date: 2024-07
         location: Paris, France
@@ -125,13 +125,13 @@ cv:
           - "**Stack Technique:** AWS SageMaker, GCP Big Query, PySpark, Python, Pandas, Git, Docker, Jira, Trello"
 
       - company: Qwarry
-        position: Stagiaire Data Scientist
+        position: Intern Data Scientist
         start_date: 2020-03
         end_date: 2020-08
         location: Paris, France
         highlights:
           - Développé une boîte à outils machine learning en Python, rationalisant les processus de développement de modèles
-          - Organisé et validé des datasets pour des tâches de classification de texte, assurant la qualité et la pertinence des données
+          - Organisé et validé des datasets pour des tâches de classification de texte, assurant la qualité et la relevance des données
           - Construit et déployé des modèles ML pour la classification de texte derrière une API Django, améliorant les capacités d'analyse textuelle
           - "**Stack Technique:** Keras, TensorFlow, Python, Pandas, Django, SQL"
 
